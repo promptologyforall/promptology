@@ -1,0 +1,105 @@
+/* ponytail: deliberately 1998. do not modernise. */
+body { background: #ffffcc; color: #000080; font-family: "Times New Roman", Times, serif;
+       font-size: 17px; line-height: 1.55; margin: 0; padding: 12px 8px; }
+table.page { width: 100%; max-width: 660px; margin: 0 auto; background: #ffffff;
+             border: 3px ridge #808080; }
+td.main { padding: 20px; }
+h1 { color: #cc0000; text-align: center; font-size: 32px; margin: 4px 0; letter-spacing: 2px; }
+h2 { color: #800080; font-size: 21px; border-bottom: 1px solid #c0c0c0; margin-top: 30px; }
+h3 { color: #006400; font-size: 17px; margin-bottom: 4px; }
+a { color: #0000ee; } a:visited { color: #551a8b; }
+.center { text-align: center; }
+.small { font-size: 13px; color: #444444; }
+blockquote { border-left: 3px solid #cccccc; margin: 12px 0 12px 12px; padding-left: 12px;
+             font-style: italic; color: #000000; }
+ol, ul { padding-left: 26px; }
+hr { border: 0; border-top: 1px dashed #999999; margin: 24px 0; }
+.blink { animation: b 1.2s steps(1) infinite; color: #cc0000; font-weight: bold; }
+@keyframes b { 50% { opacity: 0; } }
+/* the counter is an img (api/counter.js draws it). These rules also dress the alt text on
+   the day the counter cannot be reached, so it degrades to the same black box. */
+.counter { font-family: "Courier New", monospace; background: #000000; color: #00ff00;
+           padding: 2px 6px; letter-spacing: 2px; vertical-align: middle; }
+/* verse numbers */
+.v { color: #cc0000; font-size: 11px; font-weight: bold; vertical-align: super;
+     margin-right: 3px; }
+p.verse { margin: 0 0 9px 0; }
+/* book chrome */
+/* a book's name where it is not the page's own title: the front page quoting Book I.
+   h1 at two thirds, so it reads as a heading without competing with PROMPTOLOGY above it. */
+.bookhead { text-align: center; color: #cc0000; font-size: 21px; letter-spacing: 2px;
+  font-weight: bold; margin: 2px 0; }
+.booknum { text-align: center; color: #800080; font-size: 13px; letter-spacing: 3px;
+           margin: 0; }
+.nav { text-align: center; font-size: 13px; margin: 10px 0; }
+table.toc { width: 100%; border-collapse: collapse; margin: 10px 0; }
+table.toc td { border: 1px solid #dddddd; padding: 6px 8px; vertical-align: top; }
+table.toc td.n { width: 52px; color: #800080; text-align: center; font-size: 13px; }
+table.time { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.time td { border: 1px solid #cccccc; padding: 5px 8px; }
+table.time td.era { width: 88px; font-family: "Courier New", monospace; color: #cc0000;
+                    text-align: right; }
+
+/* deep links: land below the top edge, and flash where you landed */
+h1, h2, h3, p.verse, blockquote, li, p.decree, p.warn { scroll-margin-top: 16px; }
+h2:target, h3:target { background: #ffff99; padding: 2px 6px; margin-left: -6px; }
+h2:target { border-bottom-color: #cc0000; }
+p.verse:target, blockquote:target, li:target, p.decree:target, p.warn:target {
+  background: #ffff99; }
+/* the chapter of the day: a page torn out and pinned to the door */
+div.excerpt { border: 3px ridge #c0c0c0; background: #fffff0; padding: 14px 16px;
+              margin: 12px 0; }
+div.excerpt p.center { margin-top: 0; }
+
+/* the pyramid: courses of oxblood stamped on the page, the apex at the top and the
+   thousand holding it up. The turbulence eats the edges so it reads as ink, not as a chart. */
+svg.pyramid { display: block; width: 100%; max-width: 620px; margin: 18px auto;
+              background: #f4f1ea; border: 1px solid #d8d0c0; }
+svg.pyramid text { font-family: "Times New Roman", Times, serif; }
+svg.pyramid .n { fill: #8b1a1a; font-size: 15px; text-anchor: end; letter-spacing: 1px; }
+svg.pyramid .l { fill: #5b5148; font-size: 14px; }
+
+/* the registry: what a work was called, and what it was */
+table.works { width: 100%; border-collapse: collapse; font-size: 15px; margin: 14px 0; }
+table.works td { border: 1px solid #cccccc; padding: 5px 9px; vertical-align: top; }
+table.works td.said { width: 46%; font-style: italic; color: #800080; }
+table.works td.n { width: 62px; text-align: right; color: #cc0000;
+                   font-family: "Courier New", monospace; }
+
+/* the commentaries: every gloss is set inside the one it is arguing with. The percentages
+   compound, so the page narrows and shrinks on its own until there is no room left. */
+p.scripture { text-align: center; font-size: 24px; line-height: 1.4; color: #000080;
+              margin: 18px 0; }
+div.gloss { border-left: 2px solid #d0d0d0; margin: 10px 0 10px 15px; padding-left: 11px;
+            font-size: 93%; }
+div.gloss p { margin: 6px 0; }
+div.gloss cite { color: #800080; font-style: normal; font-size: 88%;
+                 letter-spacing: 1px; display: block; }
+
+ul.thread { list-style: none; padding-left: 0; }
+ul.thread li { padding: 4px 0 4px 18px; text-indent: -18px; }
+ul.thread li:before { content: "\00BB "; color: #cc0000; }
+
+/* the decree: a line that stands alone and is not argued with */
+p.decree { text-align: center; font-weight: bold; letter-spacing: 1px; line-height: 1.4;
+           border-top: 3px double #cc0000; border-bottom: 3px double #cc0000;
+           padding: 12px 8px; margin: 22px 0; color: #000080; }
+/* the warning: hazard, blinking, unmissable, deliberately too much */
+p.warn { text-align: center; font-weight: bold; color: #cc0000; background: #fff0f0;
+         border: 2px solid #cc0000; padding: 10px 8px; margin: 22px 0; line-height: 1.4; }
+p.warn:before { content: "\26A0"; margin-right: 10px; animation: b 1.2s steps(1) infinite; }
+p.warn:after  { content: "\26A0"; margin-left: 10px;  animation: b 1.2s steps(1) infinite; }
+
+/* headings, verses and every quotable line are their own deep link */
+a.anchor { color: inherit; text-decoration: none; }
+a.anchor:visited { color: inherit; }
+a.anchor:hover { text-decoration: underline; }
+/* the section mark: the tap target on a phone, where there is no hover to reveal one */
+a.pin, a.pin:visited { color: #b0b0b0; font-size: 13px; vertical-align: super;
+                       font-weight: normal; font-style: normal; letter-spacing: 0; }
+a.pin:hover { color: #cc0000; text-decoration: none; }
+/* the note copy.js leaves behind. It can land inside a verse number or a sung quote,
+   so it refuses the raised, italic company it keeps. */
+.copied { font-size: 12px; font-weight: normal; color: #006400; margin-left: 8px;
+          font-family: "Courier New", monospace; vertical-align: baseline;
+          font-style: normal; letter-spacing: 0; }
