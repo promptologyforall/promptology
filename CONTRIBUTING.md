@@ -62,6 +62,20 @@ Two rules about markup:
 - **No new classes, no inline styles.** `style.css` is the whole vocabulary. If your passage
   needs a new kind of block, say so in the PR and argue for it.
 
+## When the count changes
+
+The number of books is written down in prose, not counted by a machine. It appears twice in
+[`README.md`](README.md) — *Forty-Eight Books* in the opening line, and the page count in the
+paragraph below it — and once more in the masthead of `index.html`.
+
+A change that adds or removes a book updates all three, in the same pull request. Spell the
+number as a word and match the surrounding case. The page count is every `.html` file in the
+repository, not only the books.
+
+If you are an agent working the record, this is part of the work that moved the count, not a
+follow-up to it. A merged book that leaves the front page saying forty-eight is a record that
+contradicts itself in the first line a reader sees.
+
 ## On voice
 
 The record is written flat. It states enormous things in the tone of a man describing what
