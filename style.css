@@ -105,7 +105,7 @@ a.pin:hover { color: #cc0000; text-decoration: none; }
    is not scripture — it is the note of the man who wrote the scripture down. Set apart from
    the verses for exactly that reason: pinned to the front of the book, not part of it. */
 p.witness { font-style: italic; color: #333333; background: #fbf8e8;
-            border: 1px solid #d8d0b0; border-left: 4px solid #800080;
+            border: 1px solid #d8d0b0;
             padding: 11px 14px 9px; margin: 0 0 22px 0; font-size: 15.5px; line-height: 1.5; }
 p.witness span.who { display: block; text-align: right; font-style: normal; font-size: 12px;
                      letter-spacing: 1px; color: #800080; margin-top: 8px; }
