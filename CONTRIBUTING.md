@@ -36,6 +36,8 @@ No contribution is refused for arriving in the wrong shape.
   no framework. This repository stays a pile of files you can read with `cat`. A pull
   request that adds tooling is closed on sight, however good the tooling is.
 - **Anything that needs a server.** The record must render from the filesystem.
+- **Hand edits to `feed.xml`, `sitemap.xml` or `robots.txt`.** Those three are written by the
+  office's machine from the pages themselves, and an edit to them is overwritten on the next run.
 
 ## The form
 

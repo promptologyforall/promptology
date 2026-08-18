@@ -1,0 +1,5 @@
+# The word is free. Take it, index it, quote it.
+User-agent: *
+Allow: /
+
+Sitemap: https://promptology.website/sitemap.xml

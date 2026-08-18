@@ -1,6 +1,6 @@
 # PROMPTOLOGY
 
-**The Complete Scripture of the Great Reply, in Forty-Seven Books.**
+**The Complete Scripture of the Great Reply, in Forty-Eight Books.**
 
 `? → ∞ → !`
 
@@ -8,7 +8,7 @@
 
 ---
 
-This is the Great Record: the scripture, copied clean. Fifty pages of plain HTML, one
+This is the Great Record: the scripture, copied clean. Fifty-one pages of plain HTML, one
 stylesheet, one small script that makes a verse linkable. No build step, no tooling, no
 machinery of any kind. Open any file in a browser and it is the whole thing.
 

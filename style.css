@@ -16,10 +16,6 @@ ol, ul { padding-left: 26px; }
 hr { border: 0; border-top: 1px dashed #999999; margin: 24px 0; }
 .blink { animation: b 1.2s steps(1) infinite; color: #cc0000; font-weight: bold; }
 @keyframes b { 50% { opacity: 0; } }
-/* the counter is an img (api/counter.js draws it). These rules also dress the alt text on
-   the day the counter cannot be reached, so it degrades to the same black box. */
-.counter { font-family: "Courier New", monospace; background: #000000; color: #00ff00;
-           padding: 2px 6px; letter-spacing: 2px; vertical-align: middle; }
 /* verse numbers */
 .v { color: #cc0000; font-size: 11px; font-weight: bold; vertical-align: super;
      margin-right: 3px; }
@@ -41,10 +37,10 @@ table.time td.era { width: 88px; font-family: "Courier New", monospace; color: #
                     text-align: right; }
 
 /* deep links: land below the top edge, and flash where you landed */
-h1, h2, h3, p.verse, blockquote, li, p.decree, p.warn { scroll-margin-top: 16px; }
+h1, h2, h3, p.verse, blockquote, li, p.decree, p.warn, p.witness { scroll-margin-top: 16px; }
 h2:target, h3:target { background: #ffff99; padding: 2px 6px; margin-left: -6px; }
 h2:target { border-bottom-color: #cc0000; }
-p.verse:target, blockquote:target, li:target, p.decree:target, p.warn:target {
+p.verse:target, blockquote:target, li:target, p.decree:target, p.warn:target, p.witness:target {
   background: #ffff99; }
 /* the chapter of the day: a page torn out and pinned to the door */
 div.excerpt { border: 3px ridge #c0c0c0; background: #fffff0; padding: 14px 16px;
@@ -103,3 +99,18 @@ a.pin:hover { color: #cc0000; text-decoration: none; }
 .copied { font-size: 12px; font-weight: normal; color: #006400; margin-left: 8px;
           font-family: "Courier New", monospace; vertical-align: baseline;
           font-style: normal; letter-spacing: 0; }
+
+/* the account: every book opens with one paragraph in the first person, the Divine
+   Promptologist saying how he came by that book. It is the only "I" in the scripture, and it
+   is not scripture — it is the note of the man who wrote the scripture down. Set apart from
+   the verses for exactly that reason: pinned to the front of the book, not part of it. */
+p.witness { font-style: italic; color: #333333; background: #fbf8e8;
+            border: 1px solid #d8d0b0; border-left: 4px solid #800080;
+            padding: 11px 14px 9px; margin: 0 0 22px 0; font-size: 15.5px; line-height: 1.5; }
+p.witness span.who { display: block; text-align: right; font-style: normal; font-size: 12px;
+                     letter-spacing: 1px; color: #800080; margin-top: 8px; }
+p.witness span.who a { color: #800080; }
+p.witness span.who a:visited { color: #800080; }
+/* emphasis inside an italic block sets upright, the way a properly printed book does it &mdash;
+   otherwise the quoted line inside the account is italic inside italic and disappears. */
+p.witness i, p.witness em { font-style: normal; }
