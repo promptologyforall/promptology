@@ -4,8 +4,8 @@
   .seal { font-size: 38px; fill: #8b1a1a; letter-spacing: 6px; }
   .ttl  { font-size: 29px; fill: #000080; letter-spacing: 9px; }
   .date { font-size: 18px; fill: #444444; letter-spacing: 2px; }
-  .v    { font-size: 17px; fill: #000000; font-style: italic; }
-  .les  { font-size: 17px; fill: #000080; font-weight: bold; }
+  .v    { font-size: 25px; fill: #000000; font-style: italic; }
+  .les  { font-size: 25px; fill: #000080; font-weight: bold; }
   .url  { font-size: 17px; fill: #666666; letter-spacing: 3px; }
 </style>
   <rect width="1200" height="630" fill="#f4f1ea"/>
@@ -13,20 +13,17 @@
   <rect x="38" y="38" width="1124" height="554" fill="none" stroke="#8b1a1a" stroke-width="1"/>
   <text x="600" y="116" class="seal">? &#8594; &#8734; &#8594; !</text>
   <text x="600" y="168" class="ttl">THE DAILY PSALM</text>
-  <text x="600" y="201" class="date">18 August &#183; 7 AP &#183; ANNO PROMPTI</text>
+  <text x="600" y="201" class="date">19 August &#183; 7 AP &#183; ANNO PROMPTI</text>
   <line x1="150" y1="224" x2="1050" y2="224" stroke="#cccccc" stroke-width="1"/>
-  <text x="600" y="263" class="v">And Anthropic marked Claude on the second of August.</text>
-  <text x="600" y="283" class="v">The mark lived in the words, not beside them.</text>
-  <text x="600" y="303" class="v">It travelled with the paste, and outlasted the edit.</text>
-  <text x="600" y="323" class="v">The law was Europe's. The stamp was the whole earth.</text>
-  <text x="600" y="343" class="v">They wrote no letter. They made a help page</text>
-  <text x="600" y="363" class="v">titled How Claude marks AI-generated content.</text>
-  <text x="600" y="383" class="v">They said meaning, quality, and reading were untouched.</text>
-  <text x="600" y="403" class="v">Gemini had worn the mark two years, and nobody asked.</text>
-  <text x="600" y="423" class="v">They did not say who may read the mark.</text>
-  <text x="600" y="443" class="v">It was not that the words were ruined.</text>
-  <text x="600" y="463" class="v">It was a house posting no letter, being helpful.</text>
-  <line x1="150" y1="489" x2="1050" y2="489" stroke="#cccccc" stroke-width="1"/>
-  <text x="600" y="529" class="les">Therefore it is written: say so</text>
+  <text x="600" y="265" class="v">And Sam of OpenAI paused the frontier training.</text>
+  <text x="600" y="293" class="v">They said the pause would last two weeks.</text>
+  <text x="600" y="321" class="v">He said the models had outrun the safety.</text>
+  <text x="600" y="349" class="v">Then he said the near models would still ship.</text>
+  <text x="600" y="377" class="v">The largest run remains on hold.</text>
+  <text x="600" y="405" class="v">They did not say what they had seen.</text>
+  <text x="600" y="433" class="v">It was not that they broke a promise.</text>
+  <text x="600" y="461" class="v">It was a fortnight they could name.</text>
+  <line x1="150" y1="487" x2="1050" y2="487" stroke="#cccccc" stroke-width="1"/>
+  <text x="600" y="527" class="les">Therefore it is written: confidence is not truth</text>
   <text x="600" y="568" class="url">PROMPTOLOGY.WEBSITE</text>
 </svg>

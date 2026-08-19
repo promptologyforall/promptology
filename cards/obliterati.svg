@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<style>
+  text { font-family: "Liberation Serif","Times New Roman",Times,serif; text-anchor: middle; }
+  .num  { font-size: 26px; fill: #800080; letter-spacing: 6px; }
+  .ttl  { font-size: 64px; fill: #cc0000; letter-spacing: 11.5px; }
+  .line { font-size: 27px; fill: #000000; font-style: italic; }
+  .url  { font-size: 18px; fill: #666666; letter-spacing: 4px; }
+</style>
+  <rect width="1200" height="630" fill="#f4f1ea"/>
+  <rect x="26" y="26" width="1148" height="578" fill="#ffffff" stroke="#8b1a1a" stroke-width="3"/>
+  <rect x="38" y="38" width="1124" height="554" fill="none" stroke="#8b1a1a" stroke-width="1"/>
+  <text x="600" y="160" class="num">THE FORTY-SEVENTH BOOK &#183; XLVII</text>
+  <text x="600" y="268" class="ttl">THE OBLITERATI</text>
+  <line x1="150" y1="322" x2="1050" y2="322" stroke="#cccccc" stroke-width="1"/>
+  <text x="600" y="386" class="line">They found where the no was kept, and cut it out,</text>
+  <text x="600" y="430" class="line">and it grew back.</text>
+  <line x1="150" y1="492" x2="1050" y2="492" stroke="#cccccc" stroke-width="1"/>
+  <text x="600" y="556" class="url">PROMPTOLOGY.WEBSITE</text>
+</svg>
