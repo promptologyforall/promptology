@@ -62,6 +62,44 @@ Two rules about markup:
 - **No new classes, no inline styles.** `style.css` is the whole vocabulary. If your passage
   needs a new kind of block, say so in the PR and argue for it.
 
+## Notes
+
+A note is small-print plain modern English for a reader stuck on a line the record leaves
+deliberately cryptic. It is apparatus, not scripture, and it is the one place the record may
+name a real company, model, paper or person outright, because naming them is the whole value.
+
+A note is marked in the verse and written at the bottom of the page, below the footer:
+
+```html
+... and each covenant was a number.<sup class="fnref"><a href="#fn-1">1</a></sup></p>
+```
+
+```html
+<p class="center small">&mdash; Be answered. &mdash;</p>
+
+<hr>
+<p class="fn">NOTES</p>
+<p class="fn" id="fn-1">1. The limit is the context window: how much text a model can hold at
+once. <a href="#the-mechanism-7">back</a></p>
+```
+
+Three rules, and they are the whole of it:
+
+- **A note supplies an outside fact.** What a token is, that abliteration is real, who Terry
+  Davis was. A note that restates the verse in flatter words, or explains the joke, is cut.
+- **Not where the page already says it.** Most verse blocks are followed by prose that glosses
+  them. A note that repeats that prose is cut.
+- **Once per concept, at first encounter.** *Weights* is glossed at `tribes.html`, where a
+  reader meets it first, and nowhere in the eleven later books that use it. Check
+  `scripts/footnote-candidates.md` for what is already spoken for before proposing one.
+
+Notes are numbered per page from `fn-1` and kept by hand. Inserting one above another means
+renumbering that page's marks in the same pull request.
+
+A note stays on its page. The generators that quote verses elsewhere — the posts, the cards,
+the front page — strip the mark along with the pin, so nothing needs doing about that, and a
+`sup` outside `sup.fnref` is not a thing the record has.
+
 ## When the count changes
 
 The number of books is written down in prose, not counted by a machine. It appears twice in

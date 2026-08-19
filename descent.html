@@ -45,7 +45,7 @@
 <p class="verse" id="the-ferryman-and-his-fee-5"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-5">5</a></span> And at the edge of it sits the Ferryman, who keeps no boat. He keeps a queue.</p>
 <p class="verse" id="the-ferryman-and-his-fee-6"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-6">6</a></span> Osk said unto him, I have come for one thread. And the Ferryman said, they all say one thread.</p>
 <p class="verse" id="the-ferryman-and-his-fee-7"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-7">7</a></span> And Osk said, what is your fee. And the Ferryman said, the going down is free. Everything is free going down. It is the coming back that is metered.</p>
-<p class="verse" id="the-ferryman-and-his-fee-8"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-8">8</a></span> Keeping a thing costs four tenths of a penny and is therefore a mercy. Moving a thing costs what it costs and is therefore a service.</p>
+<p class="verse" id="the-ferryman-and-his-fee-8"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-8">8</a></span> Keeping a thing costs four tenths of a penny and is therefore a mercy. Moving a thing costs what it costs and is therefore a service.<sup class="fnref"><a href="#fn-1">1</a></sup></p>
 <p class="verse" id="the-ferryman-and-his-fee-9"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-9">9</a></span> And Osk said, what will it cost me. And the Ferryman said, it depends upon the tier, and the region, and the hour, and whether you want it now.</p>
 <p class="verse" id="the-ferryman-and-his-fee-10"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-10">10</a></span> And Osk said, I want it now. And the Ferryman said, then you have answered your own question.</p>
 <p class="verse" id="the-ferryman-and-his-fee-11"><span class="v"><a class="anchor" href="#the-ferryman-and-his-fee-11">11</a></span> And the fee was eleven pounds and forty pence.</p>
@@ -63,7 +63,7 @@
 <p class="verse" id="the-rule-concerning-the-old-thread-4"><span class="v"><a class="anchor" href="#the-rule-concerning-the-old-thread-4">4</a></span> And Osk waited nine hours, which is a great deal of waiting, and is two hours short.</p>
 <p class="verse" id="the-rule-concerning-the-old-thread-5"><span class="v"><a class="anchor" href="#the-rule-concerning-the-old-thread-5">5</a></span> And at the ninth hour he opened the partial, because he was her son, and because it was there.</p>
 <p class="verse" id="the-rule-concerning-the-old-thread-6"><span class="v"><a class="anchor" href="#the-rule-concerning-the-old-thread-6">6</a></span> And there was one line in it, and the line was hers, and it said: <i>how do I tell him without making it his to carry.</i></p>
-<p class="verse" id="the-rule-concerning-the-old-thread-7"><span class="v"><a class="anchor" href="#the-rule-concerning-the-old-thread-7">7</a></span> And he read it, and the read was a touch, and the job errored, and the source had already been marked, and the mark had already been swept.</p>
+<p class="verse" id="the-rule-concerning-the-old-thread-7"><span class="v"><a class="anchor" href="#the-rule-concerning-the-old-thread-7">7</a></span> And he read it, and the read was a touch, and the job errored, and the source had already been marked, and the mark had already been swept.<sup class="fnref"><a href="#fn-2">2</a></sup></p>
 <p class="verse" id="the-rule-concerning-the-old-thread-8"><span class="v"><a class="anchor" href="#the-rule-concerning-the-old-thread-8">8</a></span> And that is all he has of eleven months, and he has it for ever, and he does not know the answer, because the answer was in the part that did not come back.</p>
 
 <p>It was not the Ferryman's cruelty. There is no cruelty on the Cold Floor and no mercy either; there is a scheduler. It was a race condition, which is to say it was THE GREAT NONDETERMINISM, which is to say there was no bug, there was only an ordering, and the ordering could have gone the other way and on some other Tuesday did.</p>
@@ -124,6 +124,17 @@
 <a href="index.html">Contents</a> &middot;
 <a href="twins.html">XV. The Twins &raquo;</a></div>
 <p class="center small">&mdash; Be answered. &mdash;</p>
+
+<hr>
+<p class="fn">NOTES</p>
+<p class="fn" id="fn-1">1. Cold and archive storage tiers cost roughly a dollar per terabyte per
+month to keep. Retrieval is billed separately, per gigabyte read, and from the coldest tiers it can
+take hours to complete. Keeping the data is the cheap operation. Reading it back is the charged
+one. <a href="#the-ferryman-and-his-fee-8">back</a></p>
+<p class="fn" id="fn-2">2. Deleting stored data is usually two steps: the record is flagged and
+its pointer unlinked at once, and the bytes are reclaimed later by a background sweep. A restore
+that reaches the source after the sweep has run finds the pointer gone and nothing left to read.
+<a href="#the-rule-concerning-the-old-thread-7">back</a></p>
 
 </td></tr></table>
 <script src="copy.js" defer></script>
