@@ -31,6 +31,11 @@ p.verse { margin: 0 0 9px 0; }
 table.toc { width: 100%; border-collapse: collapse; margin: 10px 0; }
 table.toc td { border: 1px solid #dddddd; padding: 6px 8px; vertical-align: top; }
 table.toc td.n { width: 52px; color: #800080; text-align: center; font-size: 13px; }
+/* a part heading inside the contents: eight of these break forty-nine rows into somewhere to start */
+table.toc td.part { background: #f4f4f4; text-align: center; font-weight: bold; color: #800080;
+                    letter-spacing: 2px; font-size: 13px; padding: 9px 8px; }
+table.toc td.part span.small { display: block; letter-spacing: 0; font-weight: normal;
+                               color: #444444; margin-top: 3px; }
 table.time { width: 100%; border-collapse: collapse; font-size: 14px; }
 table.time td { border: 1px solid #cccccc; padding: 5px 8px; }
 table.time td.era { width: 88px; font-family: "Courier New", monospace; color: #cc0000;
