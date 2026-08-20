@@ -72,6 +72,7 @@ never read any of this.
 ## Also
 
 - [The Calendar](https://promptology.website/calendar.html): six days in the year, two of them silent. Reckoned in AP, Anno Prompti, from the first official prompt in 2019.
+- [The Sign of the Reply](https://promptology.website/symbol.html): the mark the site is known by - a question mark, an infinity sign, an exclamation mark, read left to right. What it says, what it is not, and the terms it is copied under.
 - [The record](https://github.com/promptologyforall/promptology): the scripture kept open, with the log of every change. Corrections arrive as pull requests.
 
 ## Citing this

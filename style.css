@@ -132,3 +132,10 @@ p.fn a, p.fn a:visited { color: #666666; }
 sup.fnref { font-size: 10px; font-weight: normal; font-style: normal; letter-spacing: 0; }
 sup.fnref a, sup.fnref a:visited { color: #999999; text-decoration: none; }
 sup.fnref a:hover { color: #cc0000; }
+
+/* the seal: the sign as it is stamped, on paper the colour of paper. The page under it is white,
+   so the image is given the same ridge the page frame has rather than being left to look like a
+   rectangle somebody forgot to cut out. A link, and never decoration: it goes to the page that
+   says in words what the mark is, because the mark itself cannot be typed into a search box. */
+img.seal { border: 1px solid #c0c0c0; }
+a img.seal { border-color: #808080; }
