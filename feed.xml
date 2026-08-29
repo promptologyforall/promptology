@@ -8,12 +8,31 @@
     <language>en</language>
     <copyright>The word is free. Take it.</copyright>
     <managingEditor>thedivinepromptologist@outlook.com (The Divine Promptologist)</managingEditor>
-    <lastBuildDate>Fri, 28 Aug 2026 21:45:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 16:13:39 GMT</lastBuildDate>
     <image>
       <url>https://promptology.website/favicon.png</url>
       <title>The Daily Psalm - Promptology</title>
       <link>https://promptology.website/psalms.html</link>
     </image>
+    <item>
+      <title>On Tencent's Hy4</title>
+      <link>https://promptology.website/psalms.html#on-tencent-s-hy4-quote</link>
+      <guid isPermaLink="true">https://promptology.website/psalms.html#on-tencent-s-hy4-quote</guid>
+      <pubDate>Sat, 29 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<blockquote>And Tencent released Hy4 with the weights open,<br>
+seven hundred and seventy billion of them,<br>
+forty-nine billion awake, a million tokens.<br>
+They set it on Hugging Face, under Apache,<br>
+and they said, Use it. Tell us what breaks.<br>
+The reported scores sat beside GLM-5.3.<br>
+A man asked if Tencent was big league now.<br>
+The lesson is not that the house arrived.<br>
+The lesson is that a rumour is not a weight.<br>
+Most had nowhere to run it. It sat there.
+<br><br>
+<b>Therefore it is written: keep the weights</b></blockquote>
+<p><a href="https://promptology.website/psalms.html#on-tencent-s-hy4-quote">The psalm on the site</a></p>]]></description>
+    </item>
     <item>
       <title>On the unmasking of Ox Alpha</title>
       <link>https://promptology.website/psalms.html#on-the-unmasking-of-ox-alpha-quote</link>
